@@ -1,0 +1,29 @@
+This is a special folder.
+
+You can put Igor procedure files in here or shortcuts pointing to procedure
+files or to folders containing procedure files. When Igor starts up, if it
+finds any procedure files in this folder or referenced via shortcuts, it will
+open them automatically.
+
+Such procedure files are called "global" procedure files and
+are not part of any experiment but are available to all experiments.
+
+You should put only those procedures that you expect to use from
+nearly all of your experiments in this folder.
+
+NOTE:
+	If you put a procedure file in this folder and then use its procedures
+  in an experiment then that experiment will depend on the procedure
+  file. If you transfer the experiment to another computer, you will need
+  to transfer the procedure file also. If you forget the procedure
+  file then the experiment will not work on the other computer.
+
+NOTE:
+  It is best if you save your own files in your own folder outside the
+  Igor Pro Folder. This makes it possible for you to upgrade Igor in the
+  future without worrying about losing your own files. To facilite this,
+  create a folder named Igor Global Procedures outside the Igor Pro folder.
+  Now make a shortcut for your Igor Global Procedures folder, and drag it
+  into the Igor Procedures folder. When Igor starts up, it will automatically
+  open any procedure file that you store in your Igor Global Procedures
+  folder, or in any a subfolder.

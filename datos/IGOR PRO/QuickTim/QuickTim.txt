@@ -1,0 +1,16 @@
+Igor Pro uses QuickTime to import and export various graphic formats and
+to produce movies using the NewMovie and AddMovieFrame operations.
+
+Apple Computer Inc. does not allow others to redistribute QuickTime, so you
+will need to download the free version from their web site or purchase
+the QuickTime Pro version from a retailer.
+
+Quicktime 4.12 or later is recommended, and can be downloaded from Apple's
+website at:
+
+           http://www.apple.com/quicktime
+
+Igor can function very well without QuickTime, but of course with slightly
+diminished capability.
+
+7/2000

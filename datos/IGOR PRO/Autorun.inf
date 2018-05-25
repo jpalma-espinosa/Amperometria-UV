@@ -1,0 +1,8 @@
+[autorun]
+open=autorun.exe
+icon=igordisk.ico
+
+[Installs]
+Application=Igor Pro
+FileVersion=4, 0, 1, 0
+ProductVersion=4.01

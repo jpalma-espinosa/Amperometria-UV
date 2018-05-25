@@ -1,0 +1,69 @@
+IGOR
+X NewPath /O/M="Select Data File Folder:" EGFPv_EXP_8_Path "C:\\Users\\Amperometía\\Desktop\\Cote 2016\\Amperometria\\25.05.16\\EGFPv\\EGFPv EXP 8_Waves\\"
+X Silent 1
+
+X LoadWave/O/H/P=EGFPv_EXP_8_Path "EGFPv_EXP_8_1_8_1_1.ibw"
+X Rename EGFP_1_8_1_1, EGFPv_EXP_8_1_8_1_1
+X SetScale/P x, 0.000000000E+00,  4.000000000E-04,"s", EGFPv_EXP_8_1_8_1_1
+X SetScale y,0,0,"A", EGFPv_EXP_8_1_8_1_1
+X Display /W=(60,46,460,246) EGFPv_EXP_8_1_8_1_1 as "EGFPv_1_8"
+X DoWindow/C EGFPv_EXP_8_1_8g
+X SetAxis bottom,  0.000000000E+00,  1.002000000E+02; SetAxis left, -1.537621562E-10,  7.702412702E-10
+X ModifyGraph grid(bottom)=2
+X ModifyGraph grid(left)=2
+X TextBox/N=EGFPv_EXP_8_1_8gL1/F=0/A=LT/Y=0 "EGFPv_1_8"
+X ModifyGraph rgb(EGFPv_EXP_8_1_8_1_1)=(0,0,0)
+X Note/K EGFPv_EXP_8_1_8_1_1
+
+WAVES EGFPv_EXP_8_1_8_Ampl_1
+BEGIN
+ 6.500000000E-01
+END
+X SetScale d 0,0,"mV", EGFPv_EXP_8_1_8_Ampl_1
+
+WAVES EGFPv_EXP_8_1_8_Mean_2
+BEGIN
+ 5.721452257E-12
+END
+X SetScale d 0,0,"A", EGFPv_EXP_8_1_8_Mean_2
+
+WAVES EGFPv_EXP_8_1_8_Mean_init_3
+BEGIN
+ 1.002827873E-11
+END
+X SetScale d 0,0,"A", EGFPv_EXP_8_1_8_Mean_init_3
+
+WAVES EGFPv_EXP_8_1_8_Mean_end_4
+BEGIN
+ 4.902800549E-12
+END
+X SetScale d 0,0,"A", EGFPv_EXP_8_1_8_Mean_end_4
+
+WAVES EGFPv_EXP_8_1_8_Time_5
+BEGIN
+ 0.000000000E+00
+END
+X SetScale d 0,0,"s", EGFPv_EXP_8_1_8_Time_5
+
+X Display /W=(78,64,478,264)  as "EGFPv_1_8_Online1"
+X DoWindow/C EGFPv_EXP_8_1_8_Online1
+X TextBox/N=EGFPv_EXP_8_1_8_Online1Label/F=0/A=LT/Y=0 "Mean vs Ampl"
+X AppendToGraph EGFPv_EXP_8_1_8_Mean_2 vs EGFPv_EXP_8_1_8_Ampl_1
+X ModifyGraph mode(EGFPv_EXP_8_1_8_Mean_2)=3, marker(EGFPv_EXP_8_1_8_Mean_2)=5,msize(EGFPv_EXP_8_1_8_Mean_2)=3,rgb(EGFPv_EXP_8_1_8_Mean_2)=(0,32768,4528)
+X ModifyGraph grid(bottom)=2
+X ModifyGraph grid(left)=2
+X ModifyGraph zero(bottom)=4
+X ModifyGraph zero(left)=4
+
+X Display /W=(96,82,496,282)  as "EGFPv_1_8_Online2"
+X DoWindow/C EGFPv_EXP_8_1_8_Online2
+X TextBox/N=EGFPv_EXP_8_1_8_Online2Label/F=0/A=LT/Y=0 "Mean_init vs Ampl"
+X AppendToGraph EGFPv_EXP_8_1_8_Mean_init_3 vs EGFPv_EXP_8_1_8_Ampl_1
+X ModifyGraph mode(EGFPv_EXP_8_1_8_Mean_init_3)=3, marker(EGFPv_EXP_8_1_8_Mean_init_3)=5,msize(EGFPv_EXP_8_1_8_Mean_init_3)=3,rgb(EGFPv_EXP_8_1_8_Mean_init_3)=(65280,32768,16384)
+X AppendToGraph EGFPv_EXP_8_1_8_Mean_end_4 vs EGFPv_EXP_8_1_8_Ampl_1
+X ModifyGraph mode(EGFPv_EXP_8_1_8_Mean_end_4)=3, marker(EGFPv_EXP_8_1_8_Mean_end_4)=5,msize(EGFPv_EXP_8_1_8_Mean_end_4)=3,rgb(EGFPv_EXP_8_1_8_Mean_end_4)=(0,0,65280)
+X ModifyGraph grid(bottom)=2
+X ModifyGraph grid(left)=2
+X ModifyGraph zero(bottom)=4
+X ModifyGraph zero(left)=4
+
