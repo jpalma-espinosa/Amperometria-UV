@@ -1,56 +1,50 @@
 This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: paperIEEE.aux
-The style file: abbrv.bst
+The style file: plainnat.bst
 Database file #1: bibliografia.bib
 Warning--I didn't find a database entry for "cheffena2016propagation"
-Warning--I didn't find a database entry for "cheffena2012industrial"
-Warning--I didn't find a database entry for "low2005wireless"
-Warning--I didn't find a database entry for "blackard1993measurements"
-Warning--I didn't find a database entry for "luo2011rf"
-Warning--I didn't find a database entry for "grote2009wireless"
 Warning--I didn't find a database entry for "sun2010channel"
-Warning--I didn't find a database entry for "deryck1978natural"
 Warning--I didn't find a database entry for "farjow2015novel"
-You've used 9 entries,
-            2118 wiz_defined-function locations,
-            574 strings with 6053 characters,
-and the built_in function-call counts, 3352 in all, are:
-= -- 318
-> -- 196
-< -- 0
-+ -- 78
-- -- 68
-* -- 280
-:= -- 583
-add.period$ -- 27
-call.type$ -- 9
-change.case$ -- 60
-chr.to.int$ -- 0
-cite$ -- 9
-duplicate$ -- 100
-empty$ -- 234
-format.name$ -- 68
-if$ -- 662
-int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 10
-newline$ -- 48
-num.names$ -- 18
-pop$ -- 49
+You've used 20 entries,
+            2773 wiz_defined-function locations,
+            746 strings with 9787 characters,
+and the built_in function-call counts, 11293 in all, are:
+= -- 982
+> -- 803
+< -- 6
++ -- 269
+- -- 249
+* -- 1046
+:= -- 1760
+add.period$ -- 62
+call.type$ -- 20
+change.case$ -- 142
+chr.to.int$ -- 20
+cite$ -- 40
+duplicate$ -- 427
+empty$ -- 821
+format.name$ -- 275
+if$ -- 2305
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 21
+newline$ -- 109
+num.names$ -- 80
+pop$ -- 257
 preamble$ -- 1
-purify$ -- 52
+purify$ -- 123
 quote$ -- 0
-skip$ -- 64
+skip$ -- 341
 stack$ -- 0
-substring$ -- 225
-swap$ -- 9
-text.length$ -- 0
+substring$ -- 524
+swap$ -- 29
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 34
+type$ -- 215
 warning$ -- 0
-while$ -- 31
-width$ -- 10
-write$ -- 100
-(There were 9 warnings)
+while$ -- 94
+width$ -- 0
+write$ -- 269
+(There were 3 warnings)
