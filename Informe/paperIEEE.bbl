@@ -1,4 +1,4 @@
-\begin{thebibliography}{20}
+\begin{thebibliography}{23}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,6 +15,15 @@ AbdulRasheed~A Alabi and Richard~W Tsien.
 Bruce Alberts and Dennis Bray.
 \newblock \emph{Introducci{\'o}n a la biolog{\'\i}a celular}.
 \newblock Ed. M{\'e}dica Panamericana, 2006.
+
+\bibitem[Amatore et~al.(2005)Amatore, Arbault, Bonifas, Bouret, Erard, Ewing,
+  and Sombers]{amatore2005correlation}
+Christian Amatore, St{\'e}phane Arbault, Imelda Bonifas, Yann Bouret, Marie
+  Erard, Andy~G Ewing, and Leslie~A Sombers.
+\newblock Correlation between vesicle quantal size and fusion pore release in
+  chromaffin cell exocytosis.
+\newblock \emph{Biophysical journal}, 88\penalty0 (6):\penalty0 4411--4420,
+  2005.
 
 \bibitem[Amatore et~al.(2009)Amatore, Arbault, Bonifas, and
   Guille]{amatore2009quantitative}
@@ -72,6 +81,13 @@ Arlek~M Gonz{\'a}lez-Jamett, Ximena B{\'a}ez-Matus, Montserrat~A Hevia,
 \newblock \emph{Journal of Neuroscience}, 30\penalty0 (32):\penalty0
   10683--10691, 2010.
 
+\bibitem[Grabner et~al.(2005)Grabner, Price, Lysakowski, and
+  Fox]{grabner2005mouse}
+Chad~P Grabner, Steven~D Price, Anna Lysakowski, and Aaron~P Fox.
+\newblock Mouse chromaffin cells have two populations of dense core vesicles.
+\newblock \emph{Journal of neurophysiology}, 94\penalty0 (3):\penalty0
+  2093--2104, 2005.
+
 \bibitem[Jarukanont et~al.(2015)Jarukanont, Arredondo, Femat, and
   Garcia]{jarukanont2015vesicle}
 Daungruthai Jarukanont, Imelda~Bonifas Arredondo, Ricardo Femat, and Martin~E
@@ -97,6 +113,13 @@ David~J Leszczyszyn, Jeffrey~A Jankowski, O~Humberto Viveros, Emanuel~J
   chromaffin cells.
 \newblock \emph{Journal of neurochemistry}, 56\penalty0 (6):\penalty0
   1855--1863, 1991.
+
+\bibitem[Martens and McMahon(2008)]{martens2008mechanisms}
+Sascha Martens and Harvey~T McMahon.
+\newblock Mechanisms of membrane fusion: disparate players and common
+  principles.
+\newblock \emph{Nature Reviews Molecular Cell Biology}, 9\penalty0
+  (7):\penalty0 543, 2008.
 
 \bibitem[Mosharov and Sulzer(2005)]{mosharov2005analysis}
 Eugene~V Mosharov and David Sulzer.
